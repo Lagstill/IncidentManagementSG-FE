@@ -1,8 +1,8 @@
 import pickle
 from pathlib import Path
 import requests
-import pandas as pd  
-import plotly.express as px  # pip install plotly-express
+# import pandas as pd  
+# import plotly.express as px  # pip install plotly-express
 import streamlit as st  # pip install streamlit
 import streamlit_authenticator as stauth 
 
