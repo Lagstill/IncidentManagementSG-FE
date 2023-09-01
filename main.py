@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 def get_resolution(query):
-    api_endpoint = 'http://incidenetmgt.azurewebsites.net/query'
+    api_endpoint = 'https://incidenetmgt.azurewebsites.net/query'
     params = {'question': query}
     
     response = requests.post(api_endpoint, json=params)
